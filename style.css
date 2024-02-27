@@ -15,3 +15,31 @@ body {
     font-size: 1.5em;
     font-weight: bold;
 }
+
+#message {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px; /* Espacement sous le titre */
+}
+
+.red-box {
+    background-color: #FF0000; /* Couleur de fond rouge */
+    color: #FFFFFF; /* Couleur du texte blanc */
+    padding: 20px;
+    margin-top: 20px; /* Espacement entre les boîtes rouges */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+#coin-options {
+    list-style: none;
+    padding: 0;
+}
+
+#coin-options li {
+    color: #FFFFFF; /* Couleur du texte blanc */
+}
+
+#username-instructions {
+    color: #FFFFFF; /* Couleur du texte blanc */
+    margin-top: 10px; /* Espacement au-dessus des instructions pour le nom d'utilisateur */
+}
